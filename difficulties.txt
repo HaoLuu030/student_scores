@@ -1,0 +1,5 @@
+limited knowledge in EDA (9/12)
+bare bone and separated pipeline -> added a pipeline for training a model
+not good for cross-validation
+data leakage (preprocessing before cross-validation)
+poor way to handle path
