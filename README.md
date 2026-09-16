@@ -18,8 +18,14 @@
 
 * Basic model fine-tuning.
 
-* And other useful intuitions and lessons, which I included in the learning log.
+* Other useful intuitions and lessons, which are specified in the notebooks.
 
 ## Conclusion
 
 * Although this is a very basic project and the data itself is synthetic, I still learned a lot of useful things and picked up many good practices for working on a machine learning project. I hope that what I learned from this project will transfer to more complicated projects that solve real-world problems instead of stopping at the experimental stage.
+
+## What to Improve
+
+* Although EDA is included, it does not provide much useful information for the training process. This may be due to my limited EDA knowledge or the nature of the synthetic data. I will revisit this project when I come up with more useful analysis.
+
+* Based on the competition results, there is still room for improvement. I will revisit the project once I learn more advanced models.
