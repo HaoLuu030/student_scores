@@ -36,3 +36,12 @@ class ColumnDropper(BaseEstimator, TransformerMixin):
         return self
     def transform(self, X, y=None):
         return X.drop(columns=self.columns_to_drop)
+
+class CombinedColumnsAdder(BaseEstimator, TransformerMixin):
+    def __init__(self):
+        pass
+    def fit(self, X, y=None):
+        return self
+    def transform(self, X, y=None):
+        X['study_over_sleep'] = X['study_hours'] / X['sleep_hours']
+        return X
